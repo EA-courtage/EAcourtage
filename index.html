@@ -1,238 +1,123 @@
 <!DOCTYPE HTML>
-<html lang="fr">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <title>L'Europeo Africaine</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #086c64;
-            padding: 50px 0;
-            text-align: center;
-            color: white;
-        }
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.5em;
-            margin-top: 10px;
-        }
-        #nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 20px 0;
-        }
-        #nav ul li {
-            display: inline;
-        }
-        #nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        #nav ul li a:hover {
-            color: #f9f9f9;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px 0;
-            background-color: #333;
-            color: white;
-        }
-        footer ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        footer ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        footer ul li a {
-            color: white;
-            font-size: 1.5em;
-        }
-        footer ul li a:hover {
-            color: #086c64;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-        section {
-            padding: 60px 0;
-        }
-        h3, h4 {
-            color: #086c64;
-        }
-        .image.main {
-            width: 100%;
-            height: 350px;
-            background-image: url('images/banner.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        .features {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-        }
-        .features article {
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            flex: 1;
-            min-width: 280px;
-            margin-bottom: 30px;
-        }
-        .features article .image img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px 12px 0 0;
-            object-fit: cover;
-        }
-        .features article .inner {
-            padding: 20px;
-        }
-        .features article .inner h4 {
-            font-size: 1.6em;
-        }
-        .features article .inner p {
-            font-size: 1em;
-            color: #555;
-        }
-        .features article:hover {
-            transform: translateY(-10px);
-            transition: transform 0.3s ease;
-        }
-    </style>
-</head>
-<body>
+<html>
+    <head>
+        <title>L'Europeo Africaine</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
 
-<!-- Header -->
-<section id="header">
-    <header>
-        <span class="image avatar"><img src="images/avatar.jpg" alt="L'Europeo Africaine" style="border-radius: 50%; width: 150px; height: 150px;" /></span>
-        <h1 id="logo"><a href="#">L'Europeo Africaine</a></h1>
-        <p>Nous sommes une compagnie indépendante de courtage en réassurance</p>
-    </header>
-    <nav id="nav">
-        <ul>
-            <li><a href="#one" class="active">À propos</a></li>
-            <li><a href="#two">Localisation & Contacts</a></li>
-            <li><a href="#three">Accomplissements</a></li>
-            <li><a href="#four">Contact</a></li>
-        </ul>
-    </nav>
-</section>
-
-<!-- Wrapper -->
-<div id="wrapper">
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- Section One -->
-        <section id="one">
-            <div class="image main"></div>
-            <div class="container">
-                <header class="major">
-                    <h2>L'Europeo Africaine</h2>
-                    <p>Votre assureur conseiller en Algérie</p>
-                </header>
-                <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.</p>
-            </div>
+        <!-- Header -->
+        <section id="header">
+            <header>
+                <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="logo"><a href="#">L'Europeo Africaine</a></h1>
+                <p>Nous sommes une compagnie indépendante de courtage en assurance</p>
+            </header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#one" class="active">About</a></li>
+                    <li><a href="#two">Nos Contacts et Localisation</a></li>
+                    <li><a href="#three">Quelques Réalisations</a></li>
+                    <li><a href="#four">Contact</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+            </footer>
         </section>
 
-        <!-- Section Two: Contact et Localisation -->
-        <section id="two" style="background-color: #f9f9f9;">
-            <div class="container">
-                <h3>Nos Contacts</h3>
-                <div style="display: flex; justify-content: space-between; gap: 2em; flex-wrap: wrap;">
-                    <div style="flex: 1; max-width: 48%; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-                        <p><strong>Siège:</strong> Sidi Youcef, Coop KHAHINA, N° 330, Beni Messous, Alger</p>
-                        <p><strong>Téléphone(s):</strong> +213 20 39 19 30 / +213 (0) 20 39 19 30</p>
-                        <p><strong>E-Mail:</strong> <a href="mailto:contact@exemple.com" style="color: #2596be;">contact@exemple.com</a></p>
-                        <p><strong>Directeur général:</strong> Hafid Hachani</p>
-                        <p><strong>Créée le:</strong> 16 Janvier 2025</p>
-                    </div>
-                    <div style="flex: 1; max-width: 48%;">
-                        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="350" style="border-radius: 8px;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Wrapper -->
+        <div id="wrapper">
 
-        <!-- Section Three: Accomplissements -->
-        <section id="three" style="background-color: #086c64; padding: 80px 0;">
-            <div class="container">
-                <h3 style="color: #fff;">A Few Accomplishments</h3>
-                <p style="color: #fff; line-height: 1.8;">Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-                <div class="features">
-                    <article>
-                        <a href="#" class="image">
-                            <img src="images/2open-hand-icon.PNG" alt="Open Hand Icon"/>
-                        </a>
-                        <div class="inner">
-                            <h4>Possibly broke spacetime</h4>
-                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+            <!-- Main -->
+            <div id="main">
+
+                <!-- One -->
+                <section id="one">
+                    <div class="image main" data-position="center">
+                        <img src="images/banner.jpg" alt="" />
+                    </div>
+                    <div class="container">
+                        <header class="major">
+                            <h2>L'Europeo Africaine</h2>
+                            <p>Votre assureur conseiller en Algérie.</p>
+                        </header>
+
+                        <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+                    </div>
+                </section>
+
+                <!-- Two (Contact Information + Google Map) -->
+                <section id="two" style="background-color: #f9f9f9; padding: 50px 0;">
+                    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+                        <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 2em; margin-bottom: 20px; color: #333;">Nos Contacts</h3>
+
+                        <div style="display: flex; justify-content: space-between; gap: 3em; flex-wrap: wrap;">
+                            <div style="flex: 1; max-width: 48%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                                <p><strong style="color: #086c64;">Siège :</strong> Sidi Youcef, Coop KHAHINA, N° 330, Beni Messous, Alger</p>
+                                <p><strong style="color: #086c64;">Téléphone(s) :</strong> +213 20 39 19 30 / +213 (0) 20 39 19 30</p>
+                                <p><strong style="color: #086c64;">E-Mail :</strong> <a href="mailto:contact@exemple.com" style="color: #2596be;">contact@exemple.com</a></p>
+                                <p><strong style="color: #086c64;">Directeur général :</strong> Hafid Hachani.</p>
+                                <p><strong style="color: #086c64;">Créée le :</strong> 16 Janvier 2025</p>
+                            </div>
+
+                            <div style="flex: 1; max-width: 48%; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5193163383164!2d2.971508!3d36.789589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f1e3a5e571f1f3%3A0xb33a37ac5b3d6d9a!2sSidi%20Youcef%2C%20Alger!5e0!3m2!1sfr!2sdz!4v1616456436539!5m2!1sfr!2sdz" 
+                                    width="100%" 
+                                    height="350" 
+                                    style="border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
-                    </article>
-                    <article>
-                        <a href="#" class="image">
-                            <img src="images/pic02.jpg" alt="Accomplishment 2"/>
-                        </a>
-                        <div class="inner">
-                            <h4>Terraformed a small moon</h4>
-                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section Four: Contact -->
-        <section id="four" style="background-color: #f9f9f9;">
-            <div class="container">
-                <h3>Contactez-Nous</h3>
-                <form method="post" action="#">
-                    <div style="display: flex; flex-direction: column; gap: 20px;">
-                        <input type="text" name="name" placeholder="Nom" required />
-                        <input type="email" name="email" placeholder="Email" required />
-                        <textarea name="message" placeholder="Message" rows="6" required></textarea>
-                        <input type="submit" value="Envoyer" />
                     </div>
-                </form>
+                </section>
+
+                <!-- Three (Accomplishments section with images) -->
+                <section id="three" style="padding: 80px 0; background-color: #086c64;">
+                    <div class="container" style="max-width: 1200px; margin-left: 0; margin-right: auto; padding: 20px;">
+                        <h3 style="font-size: 2.5em; color: #fff; font-weight: bold; text-align: left; margin-bottom: 20px;">Quelques Réalisations</h3>
+                        <p style="font-size: 1.1em; color: #fff; text-align: left; margin-bottom: 50px; line-height: 1.8;">Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet. Suspendisse potenti. Integer ac augue nunc.</p>
+
+                        <div style="display: flex; justify-content: flex-start; gap: 50px; flex-wrap: wrap; margin-top: 40px;">
+                            <article style="flex: 1; display: flex; min-width: 400px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-bottom: 40px;">
+                                <a href="#" class="image" style="flex-shrink: 0; width: 50%; overflow: hidden; border-radius: 12px;">
+                                    <img src="images/pic03.jpg" alt="Snapped dark matter" style="width: 100%; height: auto; object-fit: cover;"/>
+                                </a>
+                                <div class="inner" style="flex: 1; padding: 30px;">
+                                    <h4 style="font-size: 1.8em; color: #333; margin-bottom: 15px;">Snapped dark matter in the wild</h4>
+                                    <p style="font-size: 1.1em; color: #555;">Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+                                </div>
+                            </article>
+
+                            <article style="flex: 1; display: flex; min-width: 400px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-bottom: 40px;">
+                                <a href="#" class="image" style="flex-shrink: 0; width: 50%; overflow: hidden; border-radius: 12px;">
+                                    <img src="images/2open-hand-icon.PNG" alt="Open Hand Icon" style="width: 100%; height: auto; object-fit: contain;"/>
+                                </a>
+                                <div class="inner" style="flex: 1; padding: 30px;">
+                                    <h4 style="font-size: 1.8em; color: #333; margin-bottom: 15px;">Possibly broke spacetime</h4>
+                                    <p style="font-size: 1.1em; color: #555;">Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet. Suspendisse potenti.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
 
-    </div>
+    </body>
+</html>
 
-</div>
-
-<!-- Footer -->
-<footer>
-    <ul>
-        <li><a href="#" class="icon brands fa-twitter">Twitter</a></li>
-        <li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
-        <li><a href="#" class="icon brands fa-instagram">Instagram</a></li>
-        <li><a href="#" class="icon brands fa-github">Github</a></li>
-        <li><a href="mailto:contact@exemple.com" class="icon solid fa-envelope">Email</a></li>
-    </ul>
 </footer>
 
 </body>
