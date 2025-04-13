@@ -2,87 +2,71 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
     color: #333;
-    text-align: center;
+    background-color: #ffffff;
 }
 
-header {
-    background-color: #086c64;
-    color: white;
-    padding: 1.5em 1em 1em;
-}
-
-header img {
-    width: 80px;
-    margin-bottom: 0.5em;
-}
-
-header h1 {
+h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    margin: 0.2em 0;
-    letter-spacing: 1px;
 }
 
-header p {
-    margin: 0.2em 0 1em;
-    font-size: 1em;
-}
-
-nav {
-    background-color: #086c64;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav li {
-    margin: 0;
-}
-
-nav a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover, nav a.active {
-    background-color: #064f48;
-}
-
-.hero {
+.apropos-header img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-main {
-    background-color: #ffffff;
+.apropos-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 3em 1em;
+    background: #ffffff;
+    gap: 2em;
+    align-items: center;
 }
 
-.intro {
-    max-width: 700px;
-    margin: auto;
+.texte {
+    max-width: 400px;
 }
 
-.intro h2 {
-    color: #086c64;
-    font-family: 'Montserrat', sans-serif;
+.texte h2 {
     font-size: 2em;
+    color: #222;
+    margin-bottom: 0.5em;
+}
+
+.texte p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.directeur {
+    text-align: center;
+}
+
+.directeur img {
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 0.5em;
+}
+
+.directeur h3 {
+    margin: 0.3em 0 0;
+    color: #086c64;
+    font-size: 1.3em;
+}
+
+.titre {
+    margin: 0;
+    font-size: 1em;
+    color: #444;
 }
 
 footer {
     background-color: #086c64;
     color: white;
+    text-align: center;
     padding: 1em;
 }
